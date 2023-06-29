@@ -1,14 +1,13 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
-type circle struct {
+type Circle struct {
 	radius float64
 }
 
-func (c circle) area() {
-	fmt.Printf("circle area: %0.3f\n", math.Pi*c.radius*c.radius)
+func (c Circle) Area() float64 {
+	return math.Pi * c.radius * c.radius
 }

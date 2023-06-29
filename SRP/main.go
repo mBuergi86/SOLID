@@ -1,9 +1,19 @@
 package main
 
-func main() {
-	circle1 := circle{radius: 5.5}
-	circle1.area()
+import "fmt"
 
-	square1 := square{length: 7.5}
-	square1.area()
+func main() {
+	shapes := []Area{
+		Circle{radius: 5.5},
+		Square{length: 7.5},
+	}
+
+	for _, shape := range shapes {
+		switch shape := shape.(type) {
+		case Circle:
+			fmt.Printf("circle area: %0.3f\n", shape.Area())
+		case Square:
+			fmt.Printf("square area: %0.3f\n", shape.Area())
+		}
+	}
 }

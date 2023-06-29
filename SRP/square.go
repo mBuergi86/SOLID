@@ -1,11 +1,9 @@
 package main
 
-import "fmt"
-
-type square struct {
+type Square struct {
 	length float64
 }
 
-func (s square) area() {
-	fmt.Printf("squaree area: %0.3f\n", s.length*s.length)
+func (s Square) Area() float64 {
+	return s.length * s.length
 }
