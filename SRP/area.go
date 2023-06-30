@@ -1,5 +1,5 @@
 package main
 
 type Area interface {
-	Area() float64
+	area() float64
 }

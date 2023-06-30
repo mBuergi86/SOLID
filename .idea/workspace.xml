@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e220f5a-3712-437a-abc7-c47d238ca7eb" name="Changes" comment="Calc for Area">
+    <list default="true" id="8e220f5a-3712-437a-abc7-c47d238ca7eb" name="Changes" comment="The Code is very much better">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SRP/area.go" beforeDir="false" afterPath="$PROJECT_DIR$/SRP/area.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SRP/circle.go" beforeDir="false" afterPath="$PROJECT_DIR$/SRP/circle.go" afterDir="false" />
@@ -114,7 +114,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Calc for Area" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calc for Area" />
+    <MESSAGE value="The Code is very much better" />
+    <option name="LAST_COMMIT_MESSAGE" value="The Code is very much better" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

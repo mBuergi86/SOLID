@@ -11,9 +11,9 @@ func main() {
 	for _, shape := range shapes {
 		switch shape := shape.(type) {
 		case Circle:
-			fmt.Printf("circle area: %0.3f\n", shape.Area())
+			fmt.Printf("circle area: %0.3f\n", shape.area())
 		case Square:
-			fmt.Printf("square area: %0.3f\n", shape.Area())
+			fmt.Printf("square area: %0.3f\n", shape.area())
 		}
 	}
 }
